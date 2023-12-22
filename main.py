@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from google.cloud import storage
 
-def move_old_jpegs(event, context):
+def main(event, context):
     """Moves JPEG files older than a specified age from a source bucket to a destination bucket."""
 
     # 1. Extract object details from Pub/Sub message
