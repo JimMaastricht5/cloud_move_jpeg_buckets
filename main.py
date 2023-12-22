@@ -1,7 +1,4 @@
-import base64
-import json
 from datetime import datetime, timedelta
-from google.cloud import pubsub_v1
 from google.cloud import storage
 
 def move_old_jpegs(event, context):
